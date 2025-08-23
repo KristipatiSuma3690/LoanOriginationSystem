@@ -34,8 +34,9 @@ Status: 200OK is successful else will through custom Exception
 
         2. GET all loans: http://localhost:8080/api/v1/loans/
         3. GET by Id: http://localhost:8080/api/v1/loans/1
-        4. Status Count: http://localhost:8080/api/v1/loans/status-count
-        5. Top Customers: http://localhost:8080/api/v1/loans/top
+        4. Status Count: GET: http://localhost:8080/api/v1/loans/status-count
+        5. Top Customers: GET: http://localhost:8080/api/v1/loans/top
+        6. Status with Pagination: GET: http://localhost:8080/api/v1/loans/status
 
   Agent: 
 
@@ -66,10 +67,6 @@ Employees under that managers:
             Sample Request:
                  { "decision": "APPROVE" } or { "decision": "REJECT" }
 
-
-                 
-         
-   
    
 Overview: 
 1. Created a POJO class: 
