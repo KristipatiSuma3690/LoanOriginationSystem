@@ -16,7 +16,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
 
-  # Optional: enable actuator or custom settings as needed
 server:
   port: 8080
+
 
